@@ -3,9 +3,9 @@ import { Home, Register, Landing, Error, About, Clubs, Contact } from './pages'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ms-whats-up">
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/clubs" element={<Clubs />} />
