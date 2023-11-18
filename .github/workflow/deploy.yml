@@ -1,4 +1,4 @@
-name: Deploy MS Whats-Up
+name: Deploy Münster-Was-Geht
 
 on:
   push:
