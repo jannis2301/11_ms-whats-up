@@ -1,0 +1,13 @@
+.about-section {
+  max-width: var(--max-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 4%;
+}
+
+.about-text {
+  padding: 20px 30px;
+  background: violet;
+  border-radius: var(--br-10);
+  box-shadow: 0 0 10px var(--black-shadow);
+}
